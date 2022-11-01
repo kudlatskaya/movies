@@ -33,15 +33,15 @@ class Search extends React.Component {
                 <button className="btn search-btn" onClick={() => {this.props.searchMovies(this.state.search, this.state.type)}}>Search</button>
             </div>
             <div>
-                <label>
+                <label className="movies-type">
                     <input className="with-gap" name="type" type="radio"  data-type='' onChange={this.handleFilter} checked/>
                     <span>All</span>
                 </label>
-                <label>
+                <label className="movies-type">
                     <input className="with-gap" name="type" type="radio" data-type='movie' onChange={this.handleFilter}/>
                     <span>Movies only</span>
                 </label>
-                <label>
+                <label className="movies-type">
                     <input className="with-gap" name="type" type="radio" data-type='series' onChange={this.handleFilter}/>
                     <span>Series only</span>
                 </label>

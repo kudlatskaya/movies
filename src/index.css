@@ -29,3 +29,9 @@ nav {
 .card {
   width: 30%;
 }
+
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}

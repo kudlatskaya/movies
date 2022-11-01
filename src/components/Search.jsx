@@ -34,7 +34,7 @@ class Search extends React.Component {
             </div>
             <div>
                 <label>
-                    <input className="with-gap" name="type" type="radio"  data-type='' onChange={this.handleFilter}/>
+                    <input className="with-gap" name="type" type="radio"  data-type='' onChange={this.handleFilter} checked/>
                     <span>All</span>
                 </label>
                 <label>
